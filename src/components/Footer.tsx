@@ -9,7 +9,7 @@ export function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Link to="/" className="text-lg font-bold text-gray-900">
-              Code Resources
+              Code Tutorials
             </Link>
             <p className="text-gray-500 text-sm">
               A curated collection of the best resources for designers and developers.
@@ -17,7 +17,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-6">
               <a
-                href="https://github.com"
+                href="https://github.com/8pathcreative"
                 className="text-gray-400 hover:text-gray-500"
                 target="_blank"
                 rel="noopener noreferrer"
