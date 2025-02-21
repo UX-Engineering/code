@@ -31,4 +31,10 @@ export default defineConfig({
       },
     },
   },
+  scripts: {
+    clean: "rm -rf dist",
+    build: "npm run clean && vite build",
+    dev: "vite",
+    start: "vite"
+  }
 });
